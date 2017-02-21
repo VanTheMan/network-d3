@@ -5,7 +5,8 @@ class App extends React.Component{
     render(){
         return(
             <div className="App">
-                <NetworkChart />
+                <div id='network'></div>
+                <NetworkChart width="900" height="450" />
             </div>
         );
     }
